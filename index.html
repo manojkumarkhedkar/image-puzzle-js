@@ -34,9 +34,9 @@
                         <input type="radio" name="level" id="hard" value="5" onchange="imagePuzzle.startGame(images, this.value);" />                        <label for="hard">Hard</label>
                     </p>
                     <div>
-                        <button id="btnRule" type="button" class="btn" onclick="rules();">Rules</button>
-                        <button id="newPhoto" type="button" class="btn" onclick="restart();">Another Photo</button>
-                        <button id="btnReplay" type="button" class="btn" onclick="about();">About</button>
+                        <button style="background-color: blue; " id="btnRule" type="button" class="btn" onclick="rules();"><span>Rules </span></button>
+                        <button style="background-color: blue;" id="newPhoto" type="button" class="btn" onclick="restart();"><span>Another Photo</span></button>
+                        <button style="background-color: blue; " id="btnReplay" type="button" class="btn" onclick="about();"><span>About</span></button>
                     </div>
                 </div>
             </div>
@@ -78,5 +78,13 @@
             }
         </script>
     </div>
+     <footer style="text-align: center;
+    padding: 2px;
+   background-color: rgba(0, 0, 255, 0.158);
+    color: white;
+  ">
+        <p>Design : Manoj Kumar Khedkar  &copy; 2021 Development Eng: Anurag Gandhi
+        </p>
+      </footer>
 </body>
 </html>
